@@ -1,0 +1,20 @@
+IMPRIMER UNICODE
+
+
+Ok Tester le fonctionnement des flags %C et %S.
+    -Declarer un wint_t pour %C, un wchar_t pour %S
+    -La declaration se fait a l'aide de l'outils L'unicode(ornot)_caracter';
+    -Comme a l'usage, on peut directement utiliser la syntaxe printf("%S\n", L"uni_caracter");
+
+Tester d'afficher un caractere Unicode avec 'write'
+PAS OK    Tester d'afficher un unicode avec un putchar qui prend un wint_t
+    Sur 4 bits
+OK        Un Unic necessitant 3 bits sur 3 bits
+PAS OK    Un Unic necessitant 3 bits sur 4 bits Est-ce que ca marche aussi ?
+            >> La fonction doit tenir compte du nombre de bits maximum dont le caractere a besoin
+    Creer la fonction qui convertit un caractere en binaire format unicode
+    Creer la fonction binaire_vers_hexa
+    Les fonctions de conversion permettent d'afficher le caractere avec 'write'
+    Les faire fonctionner avec un wint_t
+Fuckin bien joue
+

@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Road_to_Unicode.dir/Sources/main.c.o CMakeFiles/Road_to_Unicode.dir/Sources/Functions.c.o CMakeFiles/Road_to_Unicode.dir/Sources/Convert_base.c.o  -o Road_to_Unicode 

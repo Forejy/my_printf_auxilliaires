@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/Includes/Convert_base.h
+
+/Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/Includes/Functions.h
+unistd.h
+-
+
+/Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/Sources/Convert_base.c
+unistd.h
+-
+stdlib.h
+-
+
+/Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/Sources/Functions.c
+unistd.h
+-
+wchar.h
+-
+
+/Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/Sources/main.c
+stdio.h
+-
+stdarg.h
+-
+limits.h
+-
+stdint.h
+-
+../Includes/Functions.h
+/Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/Includes/Functions.h
+wchar.h
+-
+locale.h
+-
+stdlib.h
+-
+../Includes/Convert_base.h
+/Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/Includes/Convert_base.h
+
