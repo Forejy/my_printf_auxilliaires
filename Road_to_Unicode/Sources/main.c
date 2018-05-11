@@ -7,8 +7,8 @@
 #include <locale.h>
 #include <stdlib.h>
 #include "../Includes/Convert_base.h"
-
-
+#include "../Includes/test_functions.h"
+#include "../Includes/numbers_functions/numbers_functions_octal.h"
 
 
 void	test_fonction_appel_va_list(int nb, va_list ap)
@@ -66,6 +66,26 @@ int main()
 
 	long		neglg = -648;
 	printf("%li\n", neglg);
+	//TEST DES FLAGS %o et %O, OCTAL
+	printf("PRINTF AFFICHAGE OCTAL o : %o/%o/%o/%o/\n", 7, 4294967295, -1, 655);
+	my_putstr("MY_PRINTF AFFICHAGE OTCAL : ");
+	my_put_octal_uint(7);
+	my_putchar('\\');
+
+	my_put_octal_uint(8);
+	my_putchar('\\');
+
+	my_put_octal_uint(9);
+	my_putchar('\\');
+
+	my_put_octal_uint(655);
+	my_putchar('\n');
+
+	printf("PRINTF AFFICHAGE OCTAL O : %O/%O/%O/%O/\n", 7, 9223372036854775807, 9, 655);
+	my_put_octal_ulong(9223372036854775807);
+	my_putchar('\n');
+
+
 	//printf("\nli\n", -5);
 	//printf("|%-010.5d|\n", -12);
 	//printf("%0100llu\n", 555555555555);
@@ -172,6 +192,22 @@ int main()
 	printf("%d\n", L'ᴟ');
 
 	//printf("Sizeof wint_t : %d, Caractere Unicode affiche : %C%S\n", sizeof(wint_t), C, wchar);*/
+
+	//TEST D'APPEL AVEC VA_ARG EN VARIABLE
+	char test_appel_fonction;
+	test_appel_fonction = 't';
+	printf("TEST D'APPEL AVEC VA_ARG EN VARIABLE\n");
+	char *retest;
+	retest = "test";
+	test_function_with_va_arg("cs", test_appel_fonction, retest);
+
+	//TEST FLAGS
+	printf("\nTEST # FLAG : %#x", 0);
+
+	//TEST PRECISION
+	printf("TEST PRECISION : %010.5d", 1);
+	printf("TEST PRECISION : %010.5s", "1234567");
+
 	return (0);
 
 

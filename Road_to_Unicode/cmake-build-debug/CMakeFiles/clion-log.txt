@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/cmake-build-debug
+-- Build files have been written to: /Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/cmake-build-debug

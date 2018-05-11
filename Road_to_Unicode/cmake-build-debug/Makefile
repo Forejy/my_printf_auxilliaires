@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode
+CMAKE_SOURCE_DIR = /Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/cmake-build-debug/CMakeFiles /Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/cmake-build-debug/CMakeFiles /Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,60 @@ Sources/Functions.c.s:
 	$(MAKE) -f CMakeFiles/Road_to_Unicode.dir/build.make CMakeFiles/Road_to_Unicode.dir/Sources/Functions.c.s
 .PHONY : Sources/Functions.c.s
 
+Sources/create_and_initialize_t_flag.o: Sources/create_and_initialize_t_flag.c.o
+
+.PHONY : Sources/create_and_initialize_t_flag.o
+
+# target to build an object file
+Sources/create_and_initialize_t_flag.c.o:
+	$(MAKE) -f CMakeFiles/Road_to_Unicode.dir/build.make CMakeFiles/Road_to_Unicode.dir/Sources/create_and_initialize_t_flag.c.o
+.PHONY : Sources/create_and_initialize_t_flag.c.o
+
+Sources/create_and_initialize_t_flag.i: Sources/create_and_initialize_t_flag.c.i
+
+.PHONY : Sources/create_and_initialize_t_flag.i
+
+# target to preprocess a source file
+Sources/create_and_initialize_t_flag.c.i:
+	$(MAKE) -f CMakeFiles/Road_to_Unicode.dir/build.make CMakeFiles/Road_to_Unicode.dir/Sources/create_and_initialize_t_flag.c.i
+.PHONY : Sources/create_and_initialize_t_flag.c.i
+
+Sources/create_and_initialize_t_flag.s: Sources/create_and_initialize_t_flag.c.s
+
+.PHONY : Sources/create_and_initialize_t_flag.s
+
+# target to generate assembly for a file
+Sources/create_and_initialize_t_flag.c.s:
+	$(MAKE) -f CMakeFiles/Road_to_Unicode.dir/build.make CMakeFiles/Road_to_Unicode.dir/Sources/create_and_initialize_t_flag.c.s
+.PHONY : Sources/create_and_initialize_t_flag.c.s
+
+Sources/errors.o: Sources/errors.c.o
+
+.PHONY : Sources/errors.o
+
+# target to build an object file
+Sources/errors.c.o:
+	$(MAKE) -f CMakeFiles/Road_to_Unicode.dir/build.make CMakeFiles/Road_to_Unicode.dir/Sources/errors.c.o
+.PHONY : Sources/errors.c.o
+
+Sources/errors.i: Sources/errors.c.i
+
+.PHONY : Sources/errors.i
+
+# target to preprocess a source file
+Sources/errors.c.i:
+	$(MAKE) -f CMakeFiles/Road_to_Unicode.dir/build.make CMakeFiles/Road_to_Unicode.dir/Sources/errors.c.i
+.PHONY : Sources/errors.c.i
+
+Sources/errors.s: Sources/errors.c.s
+
+.PHONY : Sources/errors.s
+
+# target to generate assembly for a file
+Sources/errors.c.s:
+	$(MAKE) -f CMakeFiles/Road_to_Unicode.dir/build.make CMakeFiles/Road_to_Unicode.dir/Sources/errors.c.s
+.PHONY : Sources/errors.c.s
+
 Sources/main.o: Sources/main.c.o
 
 .PHONY : Sources/main.o
@@ -204,6 +258,60 @@ Sources/main.c.s:
 	$(MAKE) -f CMakeFiles/Road_to_Unicode.dir/build.make CMakeFiles/Road_to_Unicode.dir/Sources/main.c.s
 .PHONY : Sources/main.c.s
 
+Sources/numbers_functions/numbers_functions_octal.o: Sources/numbers_functions/numbers_functions_octal.c.o
+
+.PHONY : Sources/numbers_functions/numbers_functions_octal.o
+
+# target to build an object file
+Sources/numbers_functions/numbers_functions_octal.c.o:
+	$(MAKE) -f CMakeFiles/Road_to_Unicode.dir/build.make CMakeFiles/Road_to_Unicode.dir/Sources/numbers_functions/numbers_functions_octal.c.o
+.PHONY : Sources/numbers_functions/numbers_functions_octal.c.o
+
+Sources/numbers_functions/numbers_functions_octal.i: Sources/numbers_functions/numbers_functions_octal.c.i
+
+.PHONY : Sources/numbers_functions/numbers_functions_octal.i
+
+# target to preprocess a source file
+Sources/numbers_functions/numbers_functions_octal.c.i:
+	$(MAKE) -f CMakeFiles/Road_to_Unicode.dir/build.make CMakeFiles/Road_to_Unicode.dir/Sources/numbers_functions/numbers_functions_octal.c.i
+.PHONY : Sources/numbers_functions/numbers_functions_octal.c.i
+
+Sources/numbers_functions/numbers_functions_octal.s: Sources/numbers_functions/numbers_functions_octal.c.s
+
+.PHONY : Sources/numbers_functions/numbers_functions_octal.s
+
+# target to generate assembly for a file
+Sources/numbers_functions/numbers_functions_octal.c.s:
+	$(MAKE) -f CMakeFiles/Road_to_Unicode.dir/build.make CMakeFiles/Road_to_Unicode.dir/Sources/numbers_functions/numbers_functions_octal.c.s
+.PHONY : Sources/numbers_functions/numbers_functions_octal.c.s
+
+Sources/test_functions_with_va_arg.o: Sources/test_functions_with_va_arg.c.o
+
+.PHONY : Sources/test_functions_with_va_arg.o
+
+# target to build an object file
+Sources/test_functions_with_va_arg.c.o:
+	$(MAKE) -f CMakeFiles/Road_to_Unicode.dir/build.make CMakeFiles/Road_to_Unicode.dir/Sources/test_functions_with_va_arg.c.o
+.PHONY : Sources/test_functions_with_va_arg.c.o
+
+Sources/test_functions_with_va_arg.i: Sources/test_functions_with_va_arg.c.i
+
+.PHONY : Sources/test_functions_with_va_arg.i
+
+# target to preprocess a source file
+Sources/test_functions_with_va_arg.c.i:
+	$(MAKE) -f CMakeFiles/Road_to_Unicode.dir/build.make CMakeFiles/Road_to_Unicode.dir/Sources/test_functions_with_va_arg.c.i
+.PHONY : Sources/test_functions_with_va_arg.c.i
+
+Sources/test_functions_with_va_arg.s: Sources/test_functions_with_va_arg.c.s
+
+.PHONY : Sources/test_functions_with_va_arg.s
+
+# target to generate assembly for a file
+Sources/test_functions_with_va_arg.c.s:
+	$(MAKE) -f CMakeFiles/Road_to_Unicode.dir/build.make CMakeFiles/Road_to_Unicode.dir/Sources/test_functions_with_va_arg.c.s
+.PHONY : Sources/test_functions_with_va_arg.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,9 +327,21 @@ help:
 	@echo "... Sources/Functions.o"
 	@echo "... Sources/Functions.i"
 	@echo "... Sources/Functions.s"
+	@echo "... Sources/create_and_initialize_t_flag.o"
+	@echo "... Sources/create_and_initialize_t_flag.i"
+	@echo "... Sources/create_and_initialize_t_flag.s"
+	@echo "... Sources/errors.o"
+	@echo "... Sources/errors.i"
+	@echo "... Sources/errors.s"
 	@echo "... Sources/main.o"
 	@echo "... Sources/main.i"
 	@echo "... Sources/main.s"
+	@echo "... Sources/numbers_functions/numbers_functions_octal.o"
+	@echo "... Sources/numbers_functions/numbers_functions_octal.i"
+	@echo "... Sources/numbers_functions/numbers_functions_octal.s"
+	@echo "... Sources/test_functions_with_va_arg.o"
+	@echo "... Sources/test_functions_with_va_arg.i"
+	@echo "... Sources/test_functions_with_va_arg.s"
 .PHONY : help
 
 

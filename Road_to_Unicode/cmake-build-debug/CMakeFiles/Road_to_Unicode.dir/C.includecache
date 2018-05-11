@@ -6,25 +6,47 @@
 
 #IncludeRegexTransform: 
 
-/Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/Includes/Convert_base.h
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/Convert_base.h
 
-/Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/Includes/Functions.h
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/Functions.h
 unistd.h
 -
 
-/Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/Sources/Convert_base.c
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/create_and_initialize_t_flag.h
+
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/errors.h
+
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/numbers_functions/numbers_functions_octal.h
+
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/test_functions.h
+
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Sources/Convert_base.c
 unistd.h
 -
 stdlib.h
 -
 
-/Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/Sources/Functions.c
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Sources/Functions.c
 unistd.h
 -
 wchar.h
 -
 
-/Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/Sources/main.c
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Sources/create_and_initialize_t_flag.c
+stdlib.h
+-
+../Includes/create_and_initialize_t_flag.h
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/create_and_initialize_t_flag.h
+../Includes/errors.h
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/errors.h
+
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Sources/errors.c
+stdlib.h
+-
+../Includes/Functions.h
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/Functions.h
+
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Sources/main.c
 stdio.h
 -
 stdarg.h
@@ -34,7 +56,7 @@ limits.h
 stdint.h
 -
 ../Includes/Functions.h
-/Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/Includes/Functions.h
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/Functions.h
 wchar.h
 -
 locale.h
@@ -42,5 +64,19 @@ locale.h
 stdlib.h
 -
 ../Includes/Convert_base.h
-/Users/jmarques/Documents/Projets_42_brouillon/Road_to_Unicode/Includes/Convert_base.h
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/Convert_base.h
+../Includes/test_functions.h
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/test_functions.h
+../Includes/numbers_functions/numbers_functions_octal.h
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/numbers_functions/numbers_functions_octal.h
+
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Sources/numbers_functions/numbers_functions_octal.c
+../../Includes/Functions.h
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/Functions.h
+
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Sources/test_functions_with_va_arg.c
+zconf.h
+-
+../Includes/Functions.h
+/Users/jmarques/Documents/Projets_42_brouillon/my_printf_auxilliaires/Road_to_Unicode/Includes/Functions.h
 
